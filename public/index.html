@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Cube Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="info">
+            <h1>3D Interactive Cube Viewer</h1>
+            <p>Drag to rotate | Scroll to zoom</p>
+            <div id="controls">
+                <button id="resetBtn">Reset View</button>
+                <button id="animateBtn">Toggle Animation</button>
+            </div>
+        </div>
+        <div id="canvas-container"></div>
+    </div>
+
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "/three/build/three.module.js",
+            "three/addons/": "/three/examples/jsm/"
+        }
+    }
+    </script>
+    <script type="module" src="app.js"></script>
+</body>
+</html>

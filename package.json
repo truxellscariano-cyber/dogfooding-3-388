@@ -1,0 +1,17 @@
+{
+  "name": "3d-cube-viewer",
+  "version": "1.0.0",
+  "description": "A simple 3D cube viewer with interactive controls",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["three.js", "3d", "webgl"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "three": "^0.160.0"
+  }
+}
